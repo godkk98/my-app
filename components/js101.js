@@ -166,26 +166,26 @@ console.log(arr.length)
 const good = [
     {
         name: "taya",
-        class: "11 1",
-        avg: "90",
+        class: 11,
+        avg: 90,
     },
 
     {
         name: "kram",
-        class: "10",
-        avg: "80",
+        class: 10,
+        avg: 80,
     },
 
     {
         name: "btata",
-        class: "9",
-        avg: "100",
+        class: 9,
+        avg: 100,
     },
 
     {
         name: "mhmad",
-        class: "8",
-        avg: "95"
+        class: 8,
+        avg: 95
     },
 
 
@@ -196,8 +196,16 @@ var hghh=0
 good.forEach(student=>{
 hghh=hghh+student.avg
 })
+
 console.log("avg",hghh /good.length );
 
+od.forEach(student=>{
+hghh=hghh+student.avg
+})
+
+var avgg=0
+var namee={}
+    set
 
 
 
@@ -205,8 +213,7 @@ console.log("avg",hghh /good.length );
 
 
 
-
-
+console.log(good)
 
 
 

@@ -8,6 +8,7 @@ const index = () => {
       <View style={styles.search}>
 
       </View>
+
       <Card />
 
       <Card />
